@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Paytone+One|Poppins');
+
+body {
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+#container {
+  max-width: 960px;
+  margin: auto;
+  overflow: auto;
+  padding: 20px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(255,185,147);
+  background-color: rgb(255,212,170);
+}
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: rgb(85,26,139)
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(228,27,40);
+}
+
+a:active {
+  color: rgb(0,0,128);
+}
+
+
+h1 {
+  font-size: 40px;
+  font-family: 'Paytone One', sans-serif;
+  font-weight: 700;
+  margin-top: 0px;
+}
+
+h2 {
+  font-size: 25px;
+  font-family: 'Paytone One', sans-serif;
+  font-weight: 700;
+}
+
+p {
+  margin: 0;
+}
+
+img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+}
+
+address {
+  padding-bottom: 0px;
+}
+
+
+
+header {
+  position: relative;
+  min-height: 259px;
+}
+
+nav {
+  margin-top: 30px;
+  background-color: rgb(255,185,147);
+  padding: 10px;
+  margin-right: 10px;
+}
+
+nav ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 90px;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 0px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: rgb(228,27,40);
+}
+
+#left-col {
+float: left;
+}
+
+#right-col {
+float: right;
+}
